@@ -15,6 +15,7 @@
 int main(int argc, char *argv[]) {
 	if (argc != 2) {
 		printf("[TIME SERVER] usage time-server server-port\n");
+		return 0;
 	}
 
 	// get port info
